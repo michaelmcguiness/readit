@@ -1,7 +1,6 @@
-# Awesome Project Build with TypeORM
+# Reddit Clone Side Project
 
-Steps to run this project:
-
-1. Run `npm i` command
-2. Setup database settings inside `ormconfig.json` file
-3. Run `npm start` command
+Tech Stack
+- Backend: Typescript, Node, Express, TypORM
+- Database: Postgres
+- Frontend: React, NextJS, TailwindCSS
