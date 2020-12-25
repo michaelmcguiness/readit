@@ -13,13 +13,16 @@ const Navbar: React.FC = () => (
         <Link href="/">readit</Link>
       </span>
     </div>
-    <div className="flex items-center w-full mx-auto bg-gray-100 border rounded hover:border-blue-500 hover:bg-white mw-160">
+    {/* Search Input */}
+    <div className="flex items-center mx-auto bg-gray-100 border rounded hover:border-blue-500 hover:bg-white ">
       <i className="pl-4 pr-3 text-gray-500 fas fa-search" />
       <input
         type="text"
-        className="py-1 pr-3 bg-transparent rounded focus:outline-none "
+        className="py-1 pr-3 bg-transparent rounded focus:outline-none mw-160"
+        placeholder="Search"
       />
     </div>
+    {/* Auth Buttons */}
     <div className="flex">
       <Link href="/login">
         <a className="w-32 py-1 mr-4 leading-5 hollow blue button">log in</a>
